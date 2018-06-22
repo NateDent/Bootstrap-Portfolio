@@ -288,7 +288,9 @@ html {
   width: 233px;
   height: 166px;
   margin-right: 15px;
-
+  padding:1px;
+  border:1px solid #021a40;
+  background-color:#4aaaa5;
   /* Positioning */
   margin-bottom: 15px;
 }
