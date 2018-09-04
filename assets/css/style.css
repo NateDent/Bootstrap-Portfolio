@@ -18,9 +18,14 @@ html {
 }
 
 /* ---------NAV START---------- */
+.connect-with-me-area{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row; 
+}
 
 .navbar-custom {
-  background-color: #fff;
+  background-color: rgba(59, 59, 59, 0.164);
 }
 
 #logo {
@@ -39,7 +44,7 @@ html {
   color: #fff;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #22ad39;
 }
 
 .navbar-right-custom {
@@ -53,10 +58,11 @@ html {
 }
 
 .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #22ad39;
 }
 
 /* --------NAV END---------- */
+
 
 .about-me-header {
   /* Positioning */
@@ -66,7 +72,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #22ad39;
 }
 
 .about-me-content {
@@ -80,7 +86,14 @@ html {
   /* Visual */
   background-color: #fff;
 }
+.col-md-8{
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  
 
+}
 .about-me-content > p {
   /* Box-model */
   padding-top: 20px;
@@ -129,7 +142,7 @@ html {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #22ad39;
 }
 
 .connect-with-me-photo {
@@ -177,7 +190,7 @@ html {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #22ad39;
 }
 
 /* ----------------- */
@@ -208,7 +221,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #22ad39;
 }
 
 #name_input,
@@ -254,7 +267,7 @@ html {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #22ad39;
   border: 0;
 }
 
@@ -290,7 +303,7 @@ html {
   margin-right: 15px;
   padding:1px;
   border:1px solid #021a40;
-  background-color:#4aaaa5;
+  background-color:#22ad39;
   /* Positioning */
   margin-bottom: 15px;
 }
@@ -305,7 +318,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #22ad39;
   }
 
   #logo {
@@ -327,6 +340,6 @@ html {
     text-align: center;
 
     /* Visual */
-    background: #4aaaa5;
+    background: #22ad39;
   }
 }
